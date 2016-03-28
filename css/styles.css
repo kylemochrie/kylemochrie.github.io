@@ -10,10 +10,8 @@ body {
 
 .nav, .navbar-nav {
     width: 100%;
-    padding-left: 7%;
+    padding-left: 5%;
 }
-
-
 
 .nav li {
     margin-left: .6em;
@@ -33,19 +31,26 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: grey;
+    color: black;
+    border-bottom: 3px solid rgba(255, 255, 255, 0);
+    transition: border-color .5s;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-    color: black;
+    border-color: rgba(0, 0, 0, 1);
 }
 
 .navbar-default .navbar-nav > li > a:focus {
-    color: grey;
+    color: black;
 }
 
 #page1 {
     background-color: #e3e3e3;
+}
+
+#logo {
+    max-height: 50px;
+    float: left;
 }
 
 #paper {
