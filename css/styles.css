@@ -61,9 +61,21 @@ body {
 }
 
 #writing {
-    margin-top: 125px;
-    font-size: 3em;
+    margin-top: 20%;
     padding: 0 40px;
+}
+
+#writing img {
+    border: 10px solid #c9c9c9;
+    border-bottom: 45px solid #c9c9c9;
+    -webkit-box-shadow: 3px 3px 3px #c9c9c9;
+    -moz-box-shadow: 3px 3px 3px #c9c9c9;
+    box-shadow: 3px 3px 3px #777;
+}
+
+#page1 h1 {
+    font-size: 3em;
+    font-weight: 600;
 }
 
 #page2 {
