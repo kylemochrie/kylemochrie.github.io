@@ -80,6 +80,38 @@ body {
 
 #page2 {
     background-color: white;
+    font-weight: 600;
+    font-size: 1.875em;
+    text-align: center;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+#page2 h1 {
+    font-weight: 600;
+}
+
+#row1 img {
+    width: 350px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.col-md-8 {
+    margin-top: 200px;
+    text-align: left;
+}
+
+#speaking {
+    float: left;
+    height: 20%;
+    width: 20%;
+}
+
+#row1 {
+    background-color: white;
 }
 
 #page3 {
