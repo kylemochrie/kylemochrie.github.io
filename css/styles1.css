@@ -1,0 +1,171 @@
+/*Kyle Mochrie CSS styles*/ 
+
+html {
+	overflow-x: hidden;
+}
+
+footer {
+	padding-top: 100px;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #f3f3f3;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+#home {
+	padding-top: 200px;
+	margin: 0 auto;
+	max-width: 80%;
+	height: 900px;
+}
+
+#home a {
+	text-decoration: none;
+}
+
+#name_Container {
+	padding-left: 76px;
+	padding-right: 0.9375rem;
+}
+
+.name_Title {
+	text-transform: uppercase;
+	color: #b4b4b4;
+	letter-spacing: .150em;
+	cursor: text;
+	display: block;
+	line-height: 1.5;
+	margin-bottom: 0;
+}
+
+.name {
+	padding-bottom: 1px;
+	color: #222222;
+	padding-top: 5px;
+}
+
+#last_Name {
+	cursor: help;
+	font-weight: bold;
+	font-size: .8em;
+	color: #b9b9b9;
+	font-family: serif;
+	font-style: italic;
+	border-bottom: dotted 1px #cccccc
+}
+
+#last_Name:hover {
+	border-bottom: dotted 1px #003f54;
+}
+
+#currently_Container {
+	padding-top: 50px;
+	padding-bottom: 300px;
+	margin: 0;
+}
+
+#logo {
+	height: 56px; 
+	width: 56px; 
+	float: left;
+}
+
+#currently {
+	padding-left: 20px;
+	padding-right: 0;
+	margin: 10px 0 0 0;
+}
+
+#challenge {
+	padding-left: 0;
+	padding-right: 0;
+	margin: 10px 0 0 0;
+}
+
+.etc {
+	height: 400px;
+}
+
+h2.secondary_Text {
+	padding-left: 2em;
+    font-size: 36px;
+}
+
+dd {
+	margin-bottom: 0px;
+}
+
+dl {
+	margin-left: 20%;
+}
+
+footer {
+	text-align: center;
+	height: 100px;
+	margin-top: 80px;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+	margin-left: 20px;
+}
+
+footer a:hover {
+	color: black;
+}
+
+footer a:active {
+	color: black;
+}
+
+footer a:visited {
+	color: black;
+}
+
+@media (max-width: 992px) {
+	footer {
+		margin-top: 30em;
+	}
+	#projects {
+		margin-top: 5em;
+	}
+}
+
+@media (max-width: 767px) {
+	#home {
+		min-width: 100vw;
+	}
+	#logo {
+		display: none;
+	}
+	#currently {
+		margin-left: 60px;
+		min-width: 100vw;
+	}
+	#challenge {
+		margin-left: 60px;
+		padding-left: 20px;
+		margin-top: 25px;
+	}
+	footer {
+		margin-top: 40em;
+	}
+}
+
+@media (max-width: 315px) {
+	#last_Name {
+		display: none;
+	}
+	h2.secondary_Text {
+		padding-left: 1em;
+	}
+	footer {
+		margin-top: 50em;
+	}
+}
