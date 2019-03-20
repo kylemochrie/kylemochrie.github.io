@@ -108,6 +108,13 @@ h1 {
 	margin: 10px 0 0 0;
 }
 
+#aws, #aws-mobile {
+	width: 150px;
+	position: absolute;
+	right: 0px;
+	bottom: -30px;
+}
+
 h2.secondary_Text {
 	padding-left: 2em;
     font-size: 36px;
@@ -174,10 +181,26 @@ footer a:visited {
 	color: black;
 }
 
+@media (max-width: 1024px) {
+	#aws {
+		display: none;
+	}
+	#aws-mobile {
+		display: block !important;
+		position: initial;
+		margin: 15px 67px 0px;
+		height: 100%;
+		width: 125px;
+	}
+}
 
 @media (max-width: 767px) {
+	#aws-mobile {
+		margin-left: 0px;
+	}
 	#home {
-		padding-top: 100px;
+		height: 100%;
+		padding-top: 25px;
 	}
 	#name_Container {
 		padding-left: 0px;
