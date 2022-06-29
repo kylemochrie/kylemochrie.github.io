@@ -91,8 +91,8 @@ h1 {
 }
 
 #logo, #logo_Mobile {
-	height: 56px; 
-	width: 56px; 
+	height: 56px;
+	width: 56px;
 	float: left;
 }
 
@@ -130,7 +130,7 @@ dl {
 
 #projects {
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 	width: 80%;
 	padding-left: 0px;
 	padding-right: 0px;

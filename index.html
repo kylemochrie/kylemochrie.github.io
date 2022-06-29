@@ -1,187 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-	<!-- Kyle Mochrie Personal Website -->
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width; initial-scale = 1.0; maximum-scale=1.0; user-scalable=no" />
-		<meta name="description" content="Kyle Mochrie's personal website. Learn a little about me and the projects I've worked on over the years.">
-		<meta name="robots" content="index,follow">
-		<title>Kyle Mochrie – Personal Website</title>
+<!-- Kyle Mochrie Personal Website -->
 
-		<!-- jQuery -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-		<!-- Bootstrap -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
-			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<!-- Javascript -->
-		<script type="text/javascript" src="scripts/scripts.js"></script>
-		<!-- CSS -->
-		<link rel="stylesheet" href="css/styles.css">
-		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-		<!-- FontAwesome -->
-		<link rel="stylesheet" href="libraries/font-awesome-4.6.3/css/font-awesome.min.css">
-		<!-- Favicon -->
-		<link rel="icon" type="image/png" href="media/logo.png">
-	</head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description"
+        content="Kyle Mochrie's personal website. Learn a little about me and the projects I've worked on over the years.">
+    <meta name="robots" content="index,follow">
+    <title>Kyle Mochrie – Personal Website</title>
 
-	<body>
-		<div id="home">
-			<div id="name_Container">
-				<img id="logo_Mobile" class="d-none" src="media/logo.png" alt="Kyle Mochrie Logo">
-				<div class="name_Title">Name</div>
-				<div class="name">
-					<h1 class="d-inline">Kyle Mochrie 
-						<a href="#" data-toggle="tooltip" title="Pronounced 'Mockery'">
-							<span id="last_Name"> /ˈmɒkri/</span>
-						</a>
-					</h1>
-				</div>
-			</div>
-			<div class="row" id="currently_Container">
-				<img id="logo" src="media/logo.png" alt="Kyle Mochrie Logo">
-				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-10" id="currently">
-					<div class="name_Title">Working at</div>
-					<div class="name">
-						<h4>Solü Technology Partners</h4>
-					</div>
-				</div>
-				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-10" id="challenge">
-					<div class="name_Title d-inline">Position</div>
-					<img id="aws" src="./media/AWS_Certified_Logo_588x300_Color.png" alt="AWS Certified Associate Developer">
-					<div class="name">
-						<h4>Web Developer</h4>
-					</div>
-				</div>
-				<img class="d-none" id="aws-mobile" src="./media/AWS_Certified_Logo_588x300_Color.png" alt="AWS Certified Associate Developer">
-			</div>
-		</div>
-		<div class="container-fluid" id="projects">
-			<div class="pl-3 name_Title">Title</div>
-			<h2 class="pl-3">Featured Work</h2>
-			<div class="row">
-				<div class="card-deck">
-					<div class="col-12 col-md-6">
-						<div class="card">
-							<div class="card-body">
-								<div class="card-title">
-									<div class="name_Title">Project</div>
-									<h4 class="mb-0">LandPro Equipment</h4>
-									<i>Sole Developer</i>
-								</div>
-								<div class="card-text">
-									<div class="name_Title">Description</div>
-									<p>Tractor Configurator web application built using Laravel and MySQL. Gives administrators a portal to add, edit, 
-										and delete various content viewable by the end user.</p>
-									<a href="https://deerebuilder.landproequipment.com/" class="card-link" target="_blank">View</a>
-								</div>
-							</div>						
-						</div>
-					</div>
-					<div class="col-12 col-md-6">
-						<div class="card">
-							<div class="card-body">
-								<div class="card-title">
-									<div class="name_Title">Project</div>
-									<h4 class="mb-0">Greenlight Networks</h4>
-									<i>Sole Front-end Developer</i>
-								</div>
-								<div class="card-text">
-									<div class="name_Title">Description</div>
-									<p>Built using Wordpress. Provides information as well as a way to find if service is available in your area.</p>
-									<a href="https://www.greenlightnetworks.com/" class="card-link" target="_blank">View</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-12 col-md-6">
-						<div class="card">
-							<div class="card-body">
-								<div class="card-title">
-									<div class="name_Title">Project</div>
-									<h4 class="mb-0">MIT Civil & Environmental Engineering</h4>
-									<i>Built as a Team</i><br>
-								</div>
-								<div class="card-text">
-									<div class="name_Title">Description</div>
-									<p>Worked alongside other developers to deliver a departmental website for the college.</p>
-									<a href="https://cee.mit.edu/" class="card-link" target="_blank">View</a>
-								</div>
-							</div>						
-						</div>
-					</div>
-					<div class="col-12 col-md-6">
-						<div class="card">
-							<div class="card-body">
-								<div class="card-title">
-									<div class="name_Title">Project</div>
-									<h4 class="mb-0">Wegmans Blue Dalia</h4>
-									<i>Sole Developer</i>
-								</div>
-								<div class="card-text">
-									<div class="name_Title">Description</div>
-									<p>Website for the Mexican restaurant located on the second floor of Wegmans at Natick Mall in MA.</p>
-									<a href="https://bluedaliarestaurant.com/" class="card-link" target="_blank">View</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-12 col-md-6">
-						<div class="card">
-							<div class="card-body">
-								<div class="card-title">
-									<div class="name_Title">Project</div>
-									<h4 class="mb-0">Heinen's Grocery Store</h4>
-									<i>Sole Developer</i>
-								</div>
-								<div class="card-text">
-									<div class="name_Title">Description</div>
-									<p>Transformed their desktop-only website into a responsive, mobile friendly experience.</p>
-									<a href="https://www.heinens.com/" class="card-link" target="_blank">View</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-12 col-md-6">
-						<div class="card">
-							<div class="card-body">
-								<div class="card-title">
-									<div class="name_Title">Project</div>
-									<h4 class="mb-0">Alicia Nassar</h4>
-									<i>Sole Developer</i>
-								</div>
-								<div class="card-text">
-									<div class="name_Title">Description</div>
-									<p>Website for a small business in Rochester, NY.</p>
-									<a href="http://www.alicianassar.com/" class="card-link" target="_blank">View</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="about">
-			<div id="about_Container">
-					<div class="name_Title">Title</div>
-					<h2>About Me</h2>
-					<div class="name_Title">Description</div>
-					<p class="mb-0">I'm <strong>Kyle Mochrie</strong>. I design and develop websites and web applications.
-					I received my bachelor's in IT from the <strong>Rochester Institute of Technology</strong>.
-					I've lived and worked in Rochester my whole life, alongside my beautiful cat, <strong>Ari</strong>.
-				  Feel free to <strong>get in touch</strong> with me, I'm quite quick to respond.</p>
-			</div>
-		</div>
-		<div class="container">
-			<footer>
-				<a href="https://github.com/kylemochrie" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-3x"
-					aria-hidden="true"></i></a>
-				<a href="https://www.linkedin.com/in/kylemochrie" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin-square fa-3x"
-					aria-hidden="true"></i></a>
-				<a href="https://twitter.com/KyleMochrie" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter-square fa-3x"
-					aria-hidden="true"></i></a>
-				<p style="margin-left: 3px; margin-top: 10px; margin-bottom: 35px;">Contact: kbmochrie[at]gmail.com</p>
-			</footer>
-		</div>
-	</body>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Javascript -->
+    <script type="text/javascript" src="scripts/scripts.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="libraries/font-awesome-4.6.3/css/font-awesome.min.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="media/logo.png">
+</head>
+
+<body>
+    <div id="home">
+        <div id="name_Container">
+            <img id="logo_Mobile" class="d-none" src="media/logo.png" alt="Kyle Mochrie Logo">
+            <div class="name_Title">Name</div>
+            <div class="name">
+                <h1 class="d-inline">Kyle Mochrie
+                    <a href="#" data-toggle="tooltip" title="Pronounced 'Mockery'">
+                        <span id="last_Name"> /ˈmɒkri/</span>
+                    </a>
+                </h1>
+            </div>
+        </div>
+        <div class="row" id="currently_Container">
+            <img id="logo" src="media/logo.png" alt="Kyle Mochrie Logo">
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-10" id="currently">
+                <div class="name_Title">Employed at</div>
+                <div class="name">
+                    <h4>Solü Technology Partners</h4>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-10" id="challenge">
+                <div class="name_Title d-inline">Position</div>
+                <img id="aws" src="./media/AWS_Certified_Logo_588x300_Color.png"
+                    alt="AWS Certified Associate Developer">
+                <div class="name">
+                    <h4>Web Developer</h4>
+                </div>
+            </div>
+            <img class="d-none" id="aws-mobile" src="./media/AWS_Certified_Logo_588x300_Color.png"
+                alt="AWS Certified Associate Developer">
+        </div>
+    </div>
+    <div class="container-fluid" id="projects">
+        <h2 class="pl-3">Featured Work</h2>
+        <div class="row">
+            <div class="card-deck">
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <div class="name_Title">Project</div>
+                                <h4 class="mb-0">Greenlight Networks Portal</h4>
+                            </div>
+                            <div class="card-text">
+                                <div class="name_Title">Description</div>
+                                <p>Developed the customer portal where users make payments, view their invoices, access support, and more.
+                                </p>
+                                <a href="https://www.mygreenlightnetworks.com/Account/Login" class="card-link"
+                                    target="_blank">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <div class="name_Title">Project</div>
+                                <h4 class="mb-0">Deere Builder</h4>
+                            </div>
+                            <div class="card-text">
+                                <div class="name_Title">Description</div>
+                                <p>Sole developer of a tractor configurator portal where end users can build their own
+                                    tractor based on content managed by administrators.</p>
+                                <a href="https://deerebuilder.landproequipment.com/" class="card-link"
+                                    target="_blank">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <div class="name_Title">Project</div>
+                                <h4 class="mb-0">3DAG</h4>
+                            </div>
+                            <div class="card-text">
+                                <div class="name_Title">Description</div>
+                                <p>As a team, built a portal which utilized the John Deere API and Google Maps to display imagery
+                                    and data of various tractor operations.</p>
+                                <a href="https://3dagsolutions.com/Account/Login" class="card-link"
+                                    target="_blank">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <div class="name_Title">Project</div>
+                                <h4 class="mb-0">Heinen's Grocery Store</h4>
+                            </div>
+                            <div class="card-text">
+                                <div class="name_Title">Description</div>
+                                <p>Transformed their desktop-only website into a responsive, mobile-friendly experience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <footer>
+            <a href="https://github.com/kylemochrie" target="_blank" rel="noopener noreferrer"><i
+                    class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/kylemochrie" target="_blank" rel="noopener noreferrer"><i
+                    class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+            <p style="margin-left: 3px; margin-top: 10px; padding-bottom: 35px;">Contact: kbmochrie[at]gmail.com</p>
+        </footer>
+    </div>
+</body>
+
 </html>
